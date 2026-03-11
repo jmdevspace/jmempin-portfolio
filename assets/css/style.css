@@ -1065,11 +1065,12 @@ body {
 }
 
 .skill-container {
-  max-width: 100%;
+  max-width: 900px; /* controls width */
+  margin: 0 auto; /* centers container */
   display: grid;
-  place-items: center;
-  column-gap: 50px;
-  row-gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 50px;
+  justify-items: center;
 }
 
 .skill-card {
