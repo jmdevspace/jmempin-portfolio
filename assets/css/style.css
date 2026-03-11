@@ -1068,7 +1068,6 @@ body {
   max-width: 100%;
   display: grid;
   place-items: center;
-  grid-template-columns: repeat(2, 1fr);
   column-gap: 50px;
   row-gap: 50px;
 }
